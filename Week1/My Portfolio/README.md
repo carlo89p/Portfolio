@@ -1,0 +1,1 @@
+This is a project for a coding excercise. There are no special instructions. The site will be used at a later time for my personal projects to be updated and showcased. For now, its a WIP.
