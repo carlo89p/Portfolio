@@ -111,5 +111,8 @@ footer nav ul li {
   flex-wrap: wrap;
   text-wrap: wrap;
   margin: 0 15px;
-  font-size: small;
+  font-size: xx-small;
+}
+footer nav ul li a:hover {
+  font-weight: bold;
 }
