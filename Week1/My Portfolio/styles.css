@@ -1,0 +1,115 @@
+.main-attributes {
+  background-color: rgb(245, 239, 239);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 0px;
+  padding: 30px;
+  list-style: none;
+  text-decoration: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #2c0792;
+  font-weight: 600;
+  font-size: larger;
+}
+nav {
+  background: linear-gradient(to bottom, #f03e3e, rgb(245, 239, 239));
+  border-radius: 15px;
+  margin: 12px;
+  padding: 4px;
+}
+nav a:hover {
+  font-weight: 650;
+}
+main div h1 {
+  text-align: center;
+  color: #2c0792;
+  font-weight: 450;
+}
+main div img {
+  display: block;
+  margin: auto;
+  border: 2px solid #341291;
+}
+.no-main-div-p {
+  text-align: center;
+  color: #2c0792;
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding: 20px;
+  border: 2px solid #f03e3e;
+  background-color: rgb(243, 212, 212);
+  margin: 100px;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  margin: 100px auto;
+  max-width: 600px;
+}
+.container:hover {
+  border-radius: 22px;
+  border-width: 3px;
+}
+footer nav {
+  background: linear-gradient(to top, #f03e3e, rgb(245, 239, 239));
+  border-radius: 15px;
+  margin: 0px;
+  padding: 25px;
+}
+.project-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background-color: rgb(243, 212, 212);
+  padding: 50px;
+  margin: 8px;
+}
+div ul {
+  list-style: none;
+  padding: px;
+  margin: -20px;
+}
+div ul li {
+  margin: 8px;
+  font-size: larger;
+}
+div ul li a {
+  list-style: none;
+  margin: 8px;
+  font-size: larger;
+  text-decoration: none;
+}
+div ul li p {
+  margin: 4px;
+  font-size: medium;
+  max-width: 400px;
+  text-align: center;
+  text-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+footer nav ul li {
+  display: inline-flex;
+  flex-wrap: wrap;
+  text-wrap: wrap;
+  margin: 0 15px;
+  font-size: small;
+}
